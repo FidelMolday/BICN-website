@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="bg-foreground text-background py-12 md:py-16">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-4">
@@ -49,33 +49,6 @@ const Footer = () => {
                 >
                   <Mail className="h-4 w-4" />
                   info@baringoicn.org
-                </a>
-              </li>
-            </ul>
-          </div>
-
-          {/* Quick Links */}
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href="#home" className="text-background/80 hover:text-primary transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#projects" className="text-background/80 hover:text-primary transition-colors">
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a href="#about" className="text-background/80 hover:text-primary transition-colors">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="text-background/80 hover:text-primary transition-colors">
-                  Contact
                 </a>
               </li>
             </ul>
