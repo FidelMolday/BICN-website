@@ -1,4 +1,4 @@
-import { Phone, MapPin, Mail, Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Phone, MapPin, Mail, Facebook, Linkedin } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -86,28 +86,18 @@ const Footer = () => {
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex gap-4">
             <a 
-              href="#" 
+              href="https://www.facebook.com/share/14SuzkknPfA/" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="h-10 w-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
               aria-label="Facebook"
             >
               <Facebook className="h-5 w-5" />
             </a>
             <a 
-              href="#" 
-              className="h-10 w-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
-              aria-label="Twitter"
-            >
-              <Twitter className="h-5 w-5" />
-            </a>
-            <a 
-              href="#" 
-              className="h-10 w-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
-              aria-label="Instagram"
-            >
-              <Instagram className="h-5 w-5" />
-            </a>
-            <a 
-              href="#" 
+              href="https://www.linkedin.com/in/lilian-sing-oei-08912654" 
+              target="_blank"
+              rel="noopener noreferrer"
               className="h-10 w-10 rounded-full bg-background/10 flex items-center justify-center hover:bg-primary transition-colors"
               aria-label="LinkedIn"
             >
